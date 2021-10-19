@@ -1,0 +1,9 @@
+.App{
+    height: 100vh;
+    background-color: var(--blue-background);
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
