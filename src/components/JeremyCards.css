@@ -1,0 +1,87 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.container_jeremy {
+  background-color: var(--blue-cards);
+  border-radius: 10px;
+  width: 90%;
+}
+.container_jeremy .jeremy_profile {
+  background-color: var(--blue);
+  border-radius: 10px;
+  padding: 25px 0px 50px 25px;
+}
+.container_jeremy .jeremy_profile img {
+  width: 30%;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.container_jeremy .jeremy_profile p {
+  font-weight: 400;
+  opacity: 0.7;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+.container_jeremy .jeremy_profile p.growth {
+  font-weight: 300;
+  opacity: 1;
+  font-size: 2rem;
+  width: 80%;
+}
+.container_jeremy .periods {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 15px 0px 0px 25px;
+}
+.container_jeremy .periods button {
+  background-color: transparent;
+  border: none;
+  color: #eee;
+  margin-bottom: 20px;
+}
+.container_jeremy .periods button:hover {
+  color: #ccc;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.container_cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+}
+.container_cards .card {
+  border-radius: 10px;
+}
+.container_cards .card .img {
+  height: 30%;
+  border-radius: 10px 10px 0px 0px;
+}
+.container_cards .card .img img {
+  height: 100%;
+}
+.container_cards .card .info {
+  border-radius: 10px 10px 10px 10px;
+  background-color: var(--blue-cards);
+}
+.container_cards .work {
+  background-color: var(--red-work);
+}
+.container_cards .play {
+  background-color: var(--blue-play);
+}
+.container_cards .study {
+  background-color: var(--red-study);
+}
+.container_cards .exercise {
+  background-color: var(--green-exercise);
+}
+.container_cards .social {
+  background-color: var(--violet-social);
+}
+.container_cards .self {
+  background-color: var(--orange-self-care);
+}
